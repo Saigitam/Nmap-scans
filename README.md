@@ -18,8 +18,14 @@ The objective of this task was to learn basic network reconnaissance by using **
 **Nmap Command Executed:**
 ```bash
 nmap -sS 192.168.152.0/24
- ## 3. Scan Results Summary
 
+## 3. Scan Results Summary
+
+Here's a more detailed summary of the Nmap scan:
+
+*   **Active Hosts:** The scan of the [#############]/24 network identified a total of two active hosts.
+*   **Host with Open Ports:** The IP address [#############] was identified as the host with open ports.
+*   **Further Analysis:** A detailed list of the open ports on [#############] would be beneficial to understand the services running on that device and any potential security implications.
 The scan of the $192.168.152.0/24$ network identified 2 active hosts.
 The host with open ports was identified as $192.168.152.1$.
 Raw Scan Results:[Uploading nmap<?xml version="1.0" encoding="utf-8"?>
@@ -44,5 +50,6 @@ PORT     STATE SERVICE
 Nmap done: 256 IP addresses (2 hosts up) scanned in 36.75 seconds
 </output><host comment=""><status state="up"></status><address addr="192.168.152.254" vendor="" addrtype="ipv4"></address><address addr="00:50:56:FB:C7:83" vendor="VMware" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="1000" state="filtered"></extraports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.152.1" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports><extraports count="994" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="902" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="iss-realsecure"></service></port><port portid="912" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="apex-mesh"></service></port><port portid="3306" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="mysql"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1763012368" timestr="Thu Nov 13 11:09:28 2025"></finished><hosts up="2" down="254" total="256"></hosts></runstats></nmaprun>scan.txt…]()
 
-<img width="727" height="414" alt="Screenshot 2025-11-13 111756" src="https://github.com/user-attachments/assets/d1d95aa6-6e0d-46e8-b2f7-21c818f70a11" />
-
+<img width="814" height="603" alt="Screenshot 2025-11-13 111625" src="https://github.com/user-attachments/assets/0f403e62-0ec8-4ecb-b1b9-22ed80d3a6a2" />
+<img width="698" height="733" alt="Screenshot 2025-11-13 111650" src="https://github.com/user-attachments/assets/000bf4af-e8ba-43fc-b951-37391295ec94" />
+<img width="727" height="414" alt="Screenshot 2025-11-13 111756" src="https://github.com/user-attachments/assets/549743a4-ba09-43c8-8d44-dd62ce9e6331" />
